@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elai.io Speech Generation Example</title>
+</head>
+<body>
+  <div>
+    <label for="text-input">Enter text to generate speech:</label>
+    <input type="text" id="text-input" value="Hello world! this is me"/>
+    <button id="generate-button">Generate Speech</button>
+  </div>
+
+  <script>
+    
+
+    function generateSpeech(text) {
+      fetch('https://api.elai.io/v1/generate', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${ELAI_API_KEY}`
+        },
+        body: JSON.stringify({
+          "text": text,
+          "lang": "en-US",
+          "speed": 1.0,
+          "voice": "en-US-Wavenet-A",
+          "format": "mp3"
+        })
+      })
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        const audioUrl = data.url;
+        const audio = new Audio(audioUrl);
+        audio.play();
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+    }
+
+    const generateButton = document.getElementById('generate-button');
+    generateButton.addEventListener('click', () => {
+      const textInput = document.getElementById('text-input');
+      const text = textInput.value;
+      generateSpeech(text);
+    });
+  </script>
+</body>
+</html>

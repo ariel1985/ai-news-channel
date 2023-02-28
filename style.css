@@ -1,0 +1,168 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #1f3b6c;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  #hero {
+    background-color: #fff;
+    text-align: center;
+    color: #1f3b6c;
+    font-size: 2.5rem;
+  }
+  
+  #hero p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+  }
+  
+  #hero button {
+    background-color: #1f3b6c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  #hero button:hover {
+    background-color: #fff;
+    color: #1f3b6c;
+    border: 1px solid #1f3b6c;
+  }
+  
+  #featured {
+    background-color: #f2f2f2;
+  }
+  
+  #featured h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #1f3b6c;
+  }
+  
+  #featured ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #featured li {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-right: 20px;
+    width: 30%;
+  }
+  
+  #featured li:last-of-type {
+    margin-right: 0;
+  }
+  
+  #featured img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  #featured h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 20px;
+    color: #1f3b6c;
+  }
+  
+  #featured p {
+    padding: 0 20px 20px 20px;
+  }
+  
+  #newsletter {
+    background-color: #fff;
+    text-align: center;
+    color: #1f3b6c;
+  }
+  
+  #newsletter h2 {
+    font-size: 2rem;
+  }
+  
+  #newsletter p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+  }
+  
+  #newsletter form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  #newsletter input[type="email"] {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1.25rem;
+    margin-right: 10px;
+  }
+  
+  #newsletter button {
+    background-color: #1f3b6c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size:1.25rem;
+    cursor: pointer;
+    }
+    
+    #newsletter button:hover {
+    background-color: #fff;
+    color: #1f3b6c;
+    border: 1px solid #1f3b6c;
+    }
+    
+    #footer {
+    background-color: #1f3b6c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    #footer p {
+    margin: 0;
+    }
+  
