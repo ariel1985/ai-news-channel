@@ -1,5 +1,6 @@
 .secrets
 secrets.js
+webapp/secrets.js
 
 .vscode/*
 !.vscode/settings.json
@@ -13,3 +14,22 @@ secrets.js
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# TSLint cache
+tslint.json
+
+# python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+.pyre/
+
+venv/
+ENV/
+env/
+env.bak/
+.ENV/
+.env
+

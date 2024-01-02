@@ -1,10 +1,10 @@
-# AI News Channel (ANC)
+# AI News Channel (AINC)
 
-Welcome to the AI News Channel (ANC) repository! Here, you can find the latest news and updates on artificial intelligence and machine learning from around the world.
+Welcome to the AI News Channel (AINC) repository! Here, you can find the latest news and updates on artificial intelligence and machine learning from around the world.
 
 Our website is built using HTML, CSS, and JavaScript, and we utilize various APIs to gather news and information from trusted sources. We also use OpenAI's GPT-3 to generate insightful articles and analyses about the latest trends in AI.
 
-You can visit our homepage [here](https://yet-to-come.hang-in-there) to stay up-to-date on the latest developments in the exciting field of AI.
+You can visit our homepage [here](https://ainc.news) to stay up-to-date on the latest developments in the exciting field of AI.
 
 ## Features
 
