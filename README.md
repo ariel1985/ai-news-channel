@@ -6,6 +6,23 @@ Our website is built using HTML, CSS, and JavaScript, and we utilize various API
 
 You can visit our homepage [here](https://ainc.news) to stay up-to-date on the latest developments in the exciting field of AI.
 
+| Type | Convention | Example |
+| --- | --- | --- |
+| File | snake_case | `my_script.py` |
+| Folder | snake_case | `my_folder/` |
+| Variables | snake_case | `my_variable` |
+| Functions | snake_case | `my_function()` |
+| Classes | PascalCase | `MyClass` |
+| Constants | UPPER_SNAKE_CASE | `MY_CONSTANT` |
+| Private Variables | _leading_underscore | `_my_private_var` |
+| Protected Variables | __double_leading_underscore | `__my_protected_var` |
+
+* `snake_case` means all lowercase with underscores between words.
+* `PascalCase` means the first letter of each word is capitalized and there are no underscores between words.
+* `UPPER_SNAKE_CASE` means all uppercase with underscores between words.
+* `_leading_underscore` is used for private variables and functions.
+* `__double_leading_underscore` is used for protected variables and functions.
+
 ## Features
 
 - Latest news and updates on AI and machine learning
