@@ -44,6 +44,6 @@ def send_to_telegrambot(url, keywords):
 
 
 url = "https://edition.cnn.com/"
-words = extract_keywords(url, ['Trump', 'Biden', 'Israel', 'Gaza'])
+words = extract_keywords(url, ['Trump', 'Biden', 'Israel', 'Gaza', 'Hamas', 'IDF'])
 print(words)
 send_to_telegrambot(url, words)
